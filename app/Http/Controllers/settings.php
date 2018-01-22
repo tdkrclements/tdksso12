@@ -7,7 +7,7 @@
 	$tenant = "topdeckb2ctenant";
 	$clientID = "d462e5bb-2260-47fb-ab34-16ecca1e74b3"; 
 	$client_secret = "w91\\Tn$1>?wYB518424Ve,H"; // the client secret for B2C application that you created, only fill this in if you want to use confidential client flow
-	$redirect_uri = urlencode("tdksso1.azurewebsites.net"); 
+	$redirect_uri = urlencode("https://tdksso1.azurewebsites.net"); 
 	
 	// Decide which authentication flow you would like to follow
 	// To use Implicit Flow (recommended), set response_type to "id_token"
